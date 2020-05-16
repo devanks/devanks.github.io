@@ -5,6 +5,8 @@
 #  quote: >
 #    
   description: | # this will include new lines to allow paragraphs
-   <b>S grade in Software Engineering lab</b>: Required multiple projects to be submitted with strict adherence to Agile methodology
+   <ul>
+   <li><b>S grade in Software Engineering lab</b>: Required multiple projects to be submitted with strict adherence to Agile methodology</li>
    
-   <b>S grade in Main Course Project</b>: Django project using OpenCV
+   <li><b>S grade in Main Course Project</b>: Django project using OpenCV</li>
+   </ul>
