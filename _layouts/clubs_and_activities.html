@@ -1,0 +1,6 @@
+<div class="container clubs_and_activities-container">
+  <h3>{{ site.clubs_and_activities | default: "Clubs And Activities" }}</h3>
+  {% for clubs_and_activities in site.data.clubs_and_activities %}
+    {% include {{ clubs_and_activities.layout | default: 'left' | append: ".html" }} item=clubs_and_activities %}
+  {% endfor %}
+</div>

@@ -1,0 +1,6 @@
+<div class="container positions_of_responsibility-container">
+  <h3>{{ site.positions_of_responsibility | default: "Positions Of Responsibility" }}</h3>
+  {% for positions_of_responsibility in site.data.positions_of_responsibility %}
+    {% include {{ positions_of_responsibility.layout | default: 'left' | append: ".html" }} item=positions_of_responsibility %}
+  {% endfor %}
+</div>

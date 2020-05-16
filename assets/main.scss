@@ -3,3 +3,9 @@
 ---
 
 @import 'modern-resume-theme';
+
+.projects-container, .experience-container, .education-container, .skills-container, .positions_of_responsibility-container, .clubs_and_activities-container {
+  h3 {
+    margin-bottom: 0;
+  }
+}
