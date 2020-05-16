@@ -1,8 +1,19 @@
 - layout: top-middle
-  name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  name: Attendance Management System using Image Processing
+#  link: github.com/sproogen
+#  github: sproogen/resume-theme
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    B.Tech Main project
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    <ul><li>Used OpenCV to create an attendance management system to reduce the time taken for a teacher to record class attendance.</li>
+    <li>Build using Django web admin</li>
+    <li>Students and teachers can track their class attendance with role-based authentication</li></ul>
+- layout: top-middle
+  name: National Service Scheme NITC Web Page
+#  link: github.com/sproogen
+#  github: sproogen/resume-theme
+#  quote: >
+#    B.Tech Main project
+  description: | # this will include new lines to allow paragraphs
+    <ul><li>A website to showcase the work of the NSS team in NITC.</li>
+    <li>The website can also be used to track the mandatory hours to be done as a part of course work by the students.</li></ul>
