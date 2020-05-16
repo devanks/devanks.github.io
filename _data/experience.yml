@@ -17,7 +17,7 @@
   #quote: >
  #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    "<ul><li>Built an inventory management website in Django.</li>
+    <ul><li>Built an inventory management website in Django.</li>
         <ul><li>Helped in centralizing the data between different users.</li>
         <li>Increased accountability of assets taken by users</li></ul>
-    <li><u>Leveraged Knowledge</u>: Django framework, Python</li></ul>"
+    <li><u>Leveraged Knowledge</u>: Django framework, Python</li></ul>
