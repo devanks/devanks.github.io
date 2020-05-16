@@ -12,8 +12,8 @@
   name: National Service Scheme NITC Web Page
 #  link: github.com/sproogen
 #  github: sproogen/resume-theme
-#  quote: >
-#    B.Tech Main project
+  quote: >
+    
   description: | # this will include new lines to allow paragraphs
     <ul><li>A website to showcase the work of the NSS team in NITC.</li>
     <li>The website can also be used to track the mandatory hours to be done as a part of course work by the students.</li></ul>
