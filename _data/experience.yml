@@ -18,6 +18,6 @@
  #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
     - <mark> Built an inventory management website in Django.</mark>
-        --  Helped in centralizing the data between different users.
-        --  Increased accountability of assets taken by users
+        <ul><li>Helped in centralizing the data between different users.</li>
+        <li>Increased accountability of assets taken by users</li></ul>
     - <mark>Leveraged Knowledge:</mark> Django framework, Python
