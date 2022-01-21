@@ -11,6 +11,9 @@ title: Full Stack Developer
 email: devansamba96@gmail.com
 website: devanks.github.io
 
+# Dark Mode (true/false/never)
+darkmode: false
+
 # Social links
 # twitter_username: facespics
 github_username:  devanks
@@ -22,6 +25,12 @@ linkedin_username: devanks
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +devanks
+
+# Additional icon links
+additional_links:
+  - title: itsgoingto.be
+    icon: fas fa-globe
+    url: https://www.itsgoingto.be
 
 # About Section
 # about_title: About Me
@@ -44,9 +53,27 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          <ul><li>Improved response time of an API under peak load from 12 seconds to 1.6 seconds.</li>
-          <li>Built a standardized Jenkins pipeline for projects with quality stages and blue-green deployment in Pivotal cloud foundry.</li>
-            <li><u>Leveraged Knowledge</u>: Spring Boot, Java, Jenkins</li></ul>
+          <ul>
+            <li>Integrated Fleet Management</li>
+            <ul>
+              <li>Pseudo Technical Lead role.</li>
+              <li>Created strict coding standards.</li>
+              <li>Refactor existing pipelines to Ford standard library functions for less error-prone Jenkins.</li>
+              <li><u><i>Leveraged Knowledge</i></u>: Kubernetes, Jenkins, Spring Boot, VueJS</li>
+            </ul>
+            <li>Ford Fleet Marketplace</li>
+            <ul>
+              <li>Followed strict TDD principles.</li>
+              <li>Built a developer portal from base up leveraging easily editable markdown files.</li>
+              <li><u><i>Leveraged Knowledge</i></u>: Spring Boot, VueJS, Webpack</li>
+            </ul>
+            <li>Office Ride</li>
+            <ul>
+              <li>Improved response time of an API under peak load from 12 seconds to 1.6 seconds.</li>
+              <li>Built a standardized Jenkins pipeline for projects with quality stages and blue-green deployment in Pivotal cloud foundry.</li>
+              <li><u><i>Leveraged Knowledge</i></u>: Spring Boot, Java, Jenkins</li>
+            </ul>
+          </ul>
       - layout: left
         title: <b>Salalah Methanol Company</b>, Oman
         #  link: boringcompany.com
@@ -58,7 +85,7 @@ content:
           <ul><li>Built an inventory management website in Django.</li>
           <ul><li>Helped in centralizing the data between different users.</li>
           <li>Increased accountability of assets taken by users</li></ul>
-          <li><u>Leveraged Knowledge</u>: Django framework, Python</li></ul>
+          <li><u><i>Leveraged Knowledge</i></u>: Django framework, Python</li></ul>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -80,24 +107,65 @@ content:
     content:
       - layout: top-middle
         title: Attendance Management System using Image Processing
-        #  link: github.com/sproogen
-        #  github: sproogen/resume-theme
+        #        link: github.com/sproogen
+        #        link_text: Project Website
+        #        additional_links:
+        #          - title:  sproogen/modern-resume-theme
+        #            icon: fab fa-github
+        #            url: github.com/sproogen/modern-resume-theme
         quote: >
           B.Tech Main project
         description: | # this will include new lines to allow paragraphs
-          <ul><li>Used OpenCV to create an attendance management system to reduce the time taken for a teacher to record class attendance.</li>
-          <li>Build using Django web admin</li>
-          <li>Students and teachers can track their class attendance with role-based authentication</li></ul>
+          <ul>
+            <li>Used OpenCV to create an attendance management system to reduce the time taken for a teacher to record class attendance.</li>
+            <li>Build using Django web admin</li>
+            <li>Students and teachers can track their class attendance with role-based authentication</li>
+          </ul>
       - layout: top-middle
         title: National Service Scheme NITC Web Page
-        #  link: github.com/sproogen
-        #  github: sproogen/resume-theme
-        quote: >
-
+        #        link: github.com/sproogen
+        #        link_text: Project Website
+        #        additional_links:
+        #          - title:  sproogen/modern-resume-theme
+        #            icon: fab fa-github
+        #            url: github.com/sproogen/modern-resume-theme
+        #        quote: >
+        #
         description: | # this will include new lines to allow paragraphs
           <ul><li>A website to showcase the work of the NSS team in NITC.</li>
           <li>The website can also be used to track the mandatory hours to be done as a part of course work by the students.</li></ul>
 
+  - title: Organisations # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: <b>NSS</b>, Calicut
+        #  link: boringcompany.com
+        sub_title: Volunteer
+        caption: 2016 - 2019
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>Organized multiple events in and around Kozhikode:</li>
+            <ul>
+              <li>Blood donation drive.</li>
+              <li>SNEHARAGAM <i>(A talent show for developmentally challenged kids)</i>.</li>
+              <li>Help with remote government surveys.</li>
+            </ul>
+          </ul>
+
+      - layout: left
+        title: <b>U&I</b>
+        #        link: boringcompany.com
+        sub_title: Volunteer
+        caption: DECEMEMBER 2018 - APRIL 2019
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>Helped teach underprivileged and orphan kids as a volunteer from the U&I trust.</li>
+          </ul>
 #  - title: A Little More About Me
 #    layout: text
 #    content: | # this will include new lines to allow paragraphs
