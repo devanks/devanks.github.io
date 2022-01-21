@@ -28,9 +28,9 @@ linkedin_username: devanks
 
 # Additional icon links
 additional_links:
-  - title: itsgoingto.be
-    icon: fas fa-globe
-    url: https://www.itsgoingto.be
+  - title: Curriculum Vitae
+    icon: fas fa-file-download
+    url: https://tiny.one/devanCV
 
 # About Section
 # about_title: About Me
