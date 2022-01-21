@@ -2,9 +2,12 @@
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Devan K S
-title: Backend Developer
+title: Full Stack Developer
 email: devansamba96@gmail.com
 website: devanks.github.io
 
@@ -24,28 +27,88 @@ linkedin_username: devanks
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Computer Science and Engineering graduate from NITC with a passion for challenges. I am working as a backend developer in Ford Smart Mobility and working towards being a full-stack developer. 
-  I aim to learn more about different architecture paradigms and help in designing high-quality systems.
+  Computer Science and Engineering graduate from NITC with a passion for challenges. I am working as a full stack developer in Ford Smart Mobility.
+  I aim to learn more about different architecture paradigms and help in designing high-quality systems. My career aim is to become a software architect.
 
-  I am most skilled in: <mark>Spring Boot</mark> and <mark>Java</mark>
+  I am most skilled in: <mark>Spring Boot</mark> and <mark>VueJS</mark>
 
-# Projects Section
-# projects_title: Projects
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: <b>Ford Smart Mobility</b>, Chennai
+#        link: boringcompany.com
+        sub_title: Full Stack Developer
+        caption: AUGUST 2019 - PRESENT
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          <ul><li>Improved response time of an API under peak load from 12 seconds to 1.6 seconds.</li>
+          <li>Built a standardized Jenkins pipeline for projects with quality stages and blue-green deployment in Pivotal cloud foundry.</li>
+            <li><u>Leveraged Knowledge</u>: Spring Boot, Java, Jenkins</li></ul>
+      - layout: left
+        title: <b>Salalah Methanol Company</b>, Oman
+        #  link: boringcompany.com
+        sub_title: IT Trainee
+        caption: MAY 2018 - JULY 2018
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          <ul><li>Built an inventory management website in Django.</li>
+          <ul><li>Helped in centralizing the data between different users.</li>
+          <li>Increased accountability of assets taken by users</li></ul>
+          <li><u>Leveraged Knowledge</u>: Django framework, Python</li></ul>
 
-# Experience Section
-# experience_title: Experience
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: National Institute of Technology, Calicut
+        caption: JULY  2015 - APRIL 2019
+        sub_title: B.Tech in Computer Science
+#        quote: >
+#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+          <li><b>S grade in Software Engineering lab</b>: Required multiple projects to be submitted with strict adherence to Agile methodology and had to a lead team of 4 students for some of the projects</li>
+          
+          <li><b>S grade in Main Course Project</b>: Django project using OpenCV</li>
+          </ul>
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Attendance Management System using Image Processing
+        #  link: github.com/sproogen
+        #  github: sproogen/resume-theme
+        quote: >
+          B.Tech Main project
+        description: | # this will include new lines to allow paragraphs
+          <ul><li>Used OpenCV to create an attendance management system to reduce the time taken for a teacher to record class attendance.</li>
+          <li>Build using Django web admin</li>
+          <li>Students and teachers can track their class attendance with role-based authentication</li></ul>
+      - layout: top-middle
+        title: National Service Scheme NITC Web Page
+        #  link: github.com/sproogen
+        #  github: sproogen/resume-theme
+        quote: >
 
-# Education Section
-# educaton_title: Education
+        description: | # this will include new lines to allow paragraphs
+          <ul><li>A website to showcase the work of the NSS team in NITC.</li>
+          <li>The website can also be used to track the mandatory hours to be done as a part of course work by the students.</li></ul>
 
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: false
