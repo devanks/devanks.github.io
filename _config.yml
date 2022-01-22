@@ -54,27 +54,19 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          <ul>
-            <li>Integrated Fleet Management</li>
-            <ul>
-              <li>Pseudo Technical Lead role.</li>
-              <li>Created strict coding standards.</li>
-              <li>Refactor existing pipelines to Ford standard library functions for less error-prone Jenkins.</li>
-              <li><u><i>Leveraged Knowledge</i></u>: Kubernetes, Jenkins, Spring Boot, VueJS</li>
-            </ul>
-            <li>Ford Fleet Marketplace</li>
-            <ul>
-              <li>Followed strict TDD principles.</li>
-              <li>Built a developer portal from base up leveraging easily editable markdown files.</li>
-              <li><u><i>Leveraged Knowledge</i></u>: Spring Boot, VueJS, Webpack</li>
-            </ul>
-            <li>Office Ride</li>
-            <ul>
-              <li>Improved response time of an API under peak load from 12 seconds to 1.6 seconds.</li>
-              <li>Built a standardized Jenkins pipeline for projects with quality stages and blue-green deployment in Pivotal cloud foundry.</li>
-              <li><u><i>Leveraged Knowledge</i></u>: Spring Boot, Java, Jenkins</li>
-            </ul>
-          </ul>
+          * Integrated Fleet Management
+            * Pseudo Technical Lead role.
+            * Created strict coding standards.
+            * Refactor existing pipelines to Ford standard library functions for less error-prone Jenkins.
+            * _Leveraged Knowledge_: Kubernetes, Jenkins, Spring Boot, VueJS
+          * Ford Fleet Marketplace
+            * Followed strict TDD principles.
+            * Built a developer portal from base up leveraging easily editable markdown files.
+            * _Leveraged Knowledge_: Spring Boot, VueJS, Webpack
+          * Office Ride
+            * Improved response time of an API under peak load from 12 seconds to 1.6 seconds.
+            * Built a standardized Jenkins pipeline for projects with quality stages and blue-green deployment in Pivotal cloud foundry.
+            * _Leveraged Knowledge_: Spring Boot, Java, Jenkins
       - layout: left
         title: <b>Salalah Methanol Company</b>, Oman
         #  link: boringcompany.com
@@ -83,10 +75,10 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          <ul><li>Built an inventory management website in Django.</li>
-          <ul><li>Helped in centralizing the data between different users.</li>
-          <li>Increased accountability of assets taken by users</li></ul>
-          <li><u><i>Leveraged Knowledge</i></u>: Django framework, Python</li></ul>
+          * Built an inventory management website in Django.
+            * Helped in centralizing the data between different users.
+            * Increased accountability of assets taken by users.
+          * _Leveraged Knowledge_: Django framework, Python
 
   - title: <i id="education" href="#education" class="fa fa-graduation-cap" aria-hidden="true"></i> Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -98,11 +90,8 @@ content:
 #        quote: >
 #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          <ul>
-          <li><b>S grade in Software Engineering lab</b>: Required multiple projects to be submitted with strict adherence to Agile methodology and had to lead a team of 4 students for some of the projects</li>
-          
-          <li><b>S grade in Main Course Project</b>: Django project using OpenCV</li>
-          </ul>
+          * **S grade in Software Engineering lab**: Required multiple projects to be submitted with strict adherence to Agile methodology and had to lead a team of 4 students for some of the projects.
+          * **S grade in Main Course Project**: Django project using OpenCV.
   - title: <i id="projects" href="#projects" class="fa fa-desktop" aria-hidden="true"></i> Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -117,11 +106,9 @@ content:
         quote: >
           B.Tech Main project
         description: | # this will include new lines to allow paragraphs
-          <ul>
-            <li>Used OpenCV to create an attendance management system to reduce the time taken for a teacher to record class attendance.</li>
-            <li>Build using Django web admin</li>
-            <li>Students and teachers can track their class attendance with role-based authentication</li>
-          </ul>
+          * Used OpenCV to create an attendance management system to reduce the time taken for a teacher to record class attendance.
+          * Build using Django web admin.
+          * Students and teachers can track their class attendance with role-based authentication.
       - layout: top-middle
         title: National Service Scheme NITC Web Page
         #        link: github.com/sproogen
@@ -133,8 +120,8 @@ content:
         #        quote: >
         #
         description: | # this will include new lines to allow paragraphs
-          <ul><li>A website to showcase the work of the NSS team in NITC.</li>
-          <li>The website can also be used to track the mandatory hours to be done as a part of course work by the students.</li></ul>
+          * A website to showcase the work of the NSS team in NITC.
+          * The website can also be used to track the mandatory hours to be done as a part of course work by the students.
 
   - title: <i id="organizations" href="#organizations" class="fa fa-building-o" aria-hidden="true"></i> Organizations # Title for the section
     layout: list # Type of content section (list/text)
@@ -147,14 +134,10 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          <ul>
-            <li>Organized multiple events in and around Kozhikode:</li>
-            <ul>
-              <li>Blood donation drive.</li>
-              <li>SNEHARAGAM <i>(A talent show for developmentally challenged kids)</i>.</li>
-              <li>Help with remote government surveys.</li>
-            </ul>
-          </ul>
+          * Organized multiple events in and around Kozhikode:
+            * Blood donation drive.
+            * SNEHARAGAM _(A talent show for developmentally challenged kids)_.
+            * Help with remote government surveys.
 
       - layout: left
         title: <b>U&I TEACH</b>
@@ -164,10 +147,8 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          <ul>
-            <li>U&I Teach invests in children from underprivileged backgrounds with courses in English, Math, Science and Social Studies.</li>
-            <li>Helped teach underprivileged and orphan kids as a volunteer from the U&I trust.</li>
-          </ul>
+          * U&I Teach invests in children from underprivileged backgrounds with courses in English, Math, Science and Social Studies.
+          * Helped teach underprivileged and orphan kids as a volunteer from the U&I trust.
   - title: <i id="extra-curricular-activities" href="#extra-curricular-activities" class="fa fa-bullseye" aria-hidden="true"></i> Extra-curricular Activities # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -178,11 +159,9 @@ content:
 #        quote: >
 #
         description: | # this will include new lines to allow paragraphs
-          <ul>
-            <li>Committee part of the cultural festival of NITC.</li> 
-            <li>Handling organizing on-ground events.</li>
-            <li>Setup deals with bands.</li>
-          </ul>
+          * Committee part of the cultural festival of NITC. 
+          * Handling organizing on-ground events.
+          * Setup deals with bands.
       - layout: left
         title: I-Ink
         sub_title: Organizing member
@@ -190,10 +169,8 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          <ul>
-            <li>Literary Festival of NITC (2017)</li>
-            <li>Handle artists and dignitaries in the literary field with organized talks</li>
-          </ul>
+          * Literary Festival of NITC (2017)
+          * Handle artists and dignitaries in the literary field with organized talks
 #  - title: A Little More About Me
 #    layout: text
 #    content: | # this will include new lines to allow paragraphs
