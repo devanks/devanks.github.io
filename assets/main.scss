@@ -27,6 +27,9 @@ $rating-end: 5;
       vertical-align: middle !important;
       &[class*="rating-"] {
         font-size: 250%;
+        @media screen and (max-width: 767px) {
+          font-size: 150%;
+        }
       }
       @for $i from $rating-start through $rating-end {
         &.rating-#{$i}::before {

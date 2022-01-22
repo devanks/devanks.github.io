@@ -174,7 +174,7 @@ content:
   - title: <i id="skills" href="#skills" class="fa fa-hammer" aria-hidden="true"></i> Skills # Title for the section
     layout: text # Type of content section (list/text)
     content:
-      <table class="table table-no-border table-responsive">
+      <table class="table table-no-border">
         <tbody>
           <tr>
             <td>
