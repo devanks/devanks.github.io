@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Devan K S
-title: Full Stack Developer
+title: Full-Stack Developer
 email: devansamba96@gmail.com
 website: devanks.github.io
 
@@ -36,7 +36,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Computer Science and Engineering graduate from NITC with a passion for challenges. I am working as a full stack developer in Ford Smart Mobility.
+  Computer Science and Engineering graduate from NITC with a passion for challenges. I am working as a full-stack developer in Ford Smart Mobility.
   I aim to learn more about different architecture paradigms and help in designing high-quality systems. My career aim is to become a software architect.
 
   I am most skilled in: <mark>Spring Boot</mark> and <mark>VueJS</mark>
@@ -48,7 +48,7 @@ content:
       - layout: left
         title: <b>Ford Smart Mobility</b>, Chennai
 #        link: boringcompany.com
-        sub_title: Full Stack Developer
+        sub_title: Full-Stack Developer
         caption: AUGUST 2019 - PRESENT
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
@@ -98,7 +98,7 @@ content:
 #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           <ul>
-          <li><b>S grade in Software Engineering lab</b>: Required multiple projects to be submitted with strict adherence to Agile methodology and had to a lead team of 4 students for some of the projects</li>
+          <li><b>S grade in Software Engineering lab</b>: Required multiple projects to be submitted with strict adherence to Agile methodology and had to lead a team of 4 students for some of the projects</li>
           
           <li><b>S grade in Main Course Project</b>: Django project using OpenCV</li>
           </ul>
@@ -159,12 +159,38 @@ content:
         title: <b>U&I</b>
         #        link: boringcompany.com
         sub_title: Volunteer
-        caption: DECEMEMBER 2018 - APRIL 2019
+        caption: DECEMBER 2018 - APRIL 2019
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
           <ul>
             <li>Helped teach underprivileged and orphan kids as a volunteer from the U&I trust.</li>
+          </ul>
+  - title: Extra-curricular Activities # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: INFORMALS
+        sub_title: Committee head
+        caption: 2018 – 2019
+#        quote: >
+#
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>Committee part of the cultural festival of NITC.</li> 
+            <li>Handling organizing on-ground events.</li>
+            <li>Setup deals with bands.</li>
+          </ul>
+      - layout: left
+        title: I-Ink
+        sub_title: Organizing member
+        caption: 2017 – 2018
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          <ul>
+            <li>Literary Festival of NITC (2017)</li>
+            <li>Handle artists and dignitaries in the literary field with organized talks</li>
           </ul>
 #  - title: A Little More About Me
 #    layout: text
