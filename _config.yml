@@ -33,7 +33,7 @@ additional_links:
     url: https://tiny.one/devanCV
 
 # About Section
-about_title: <i class="fa fa-id-card-o" aria-hidden="true"></i> About Me
+about_title: <i id="about-me" href="#about-me" class="fa fa-id-card-o" aria-hidden="true"></i> About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Computer Science and Engineering graduate from NITC with a passion for challenges. I am working as a full-stack developer in Ford Smart Mobility.
@@ -43,7 +43,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Spring Boot</mark> and <mark>VueJS</mark>
 
 content:
-  - title: <i class="fa fa-briefcase" aria-hidden="true"></i> Experience # Title for the section
+  - title: <i id="experience" href="#experience" class="fa fa-briefcase" aria-hidden="true"></i> Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -88,7 +88,7 @@ content:
           <li>Increased accountability of assets taken by users</li></ul>
           <li><u><i>Leveraged Knowledge</i></u>: Django framework, Python</li></ul>
 
-  - title: <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education # Title for the section
+  - title: <i id="education" href="#education" class="fa fa-graduation-cap" aria-hidden="true"></i> Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -103,7 +103,7 @@ content:
           
           <li><b>S grade in Main Course Project</b>: Django project using OpenCV</li>
           </ul>
-  - title: <i class="fa fa-desktop" aria-hidden="true"></i> Projects # Title for the section
+  - title: <i id="projects" href="#projects" class="fa fa-desktop" aria-hidden="true"></i> Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -136,7 +136,7 @@ content:
           <ul><li>A website to showcase the work of the NSS team in NITC.</li>
           <li>The website can also be used to track the mandatory hours to be done as a part of course work by the students.</li></ul>
 
-  - title: <i class="fa fa-building-o" aria-hidden="true"></i> Organisations # Title for the section
+  - title: <i id="organizations" href="#organizations" class="fa fa-building-o" aria-hidden="true"></i> Organizations # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -168,7 +168,7 @@ content:
             <li>U&I Teach invests in children from underprivileged backgrounds with courses in English, Math, Science and Social Studies.</li>
             <li>Helped teach underprivileged and orphan kids as a volunteer from the U&I trust.</li>
           </ul>
-  - title: <i class="fa fa-bullseye" aria-hidden="true"></i> Extra-curricular Activities # Title for the section
+  - title: <i id="extra-curricular-activities" href="#extra-curricular-activities" class="fa fa-bullseye" aria-hidden="true"></i> Extra-curricular Activities # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
