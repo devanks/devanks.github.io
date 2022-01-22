@@ -3,3 +3,45 @@
 ---
 
 @import 'modern-resume-theme';
+
+@mixin rating($num, $limit) {
+  $whiteCircle: "\25CB";
+  $blackCircle: "\25CF";
+  $content: "";
+  @for $i from 0 to $num {
+    $content: $content + $blackCircle + " ";
+  }
+  @for $i from $num to $limit {
+    $content: $content + $whiteCircle + " ";
+  }
+  content: "#{$content}";
+}
+
+$rating-start: 0;
+$rating-end: 5;
+
+.table-no-border {
+  tr {
+    td {
+      border: none !important;
+      vertical-align: middle !important;
+      &[class*="rating-"] {
+        font-size: 250%;
+      }
+      @for $i from $rating-start through $rating-end {
+        &.rating-#{$i}::before {
+          @include rating($i, $rating-end);
+        }
+      }
+    }
+    td:nth-child(odd) {
+      text-align: start;
+      img {
+        width: 60%;
+      }
+    }
+    td:nth-child(even) {
+      text-align: center;
+    }
+  }
+}
