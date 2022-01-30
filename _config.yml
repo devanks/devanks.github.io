@@ -218,14 +218,7 @@ content:
  - title: LinkedIn
    layout: text
    content: | # this will include new lines to allow paragraphs
-     <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium"
-        {% if site.darkmode == true and site.darkmode != 'never' %}data-theme="dark"{% endif %}
-        data-type="VERTICAL" data-vanity="devanks" data-version="v1">
-          <a class="badge-base__link LI-simple-link"
-            href="https://in.linkedin.com/in/devanks?trk=profile-badge">
-            Devan K S
-          </a>
-      </div>
+     <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" {% if site.darkmode == true and site.darkmode != 'never' %}data-theme="dark"{% endif %} data-type="VERTICAL" data-vanity="devanks" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/devanks?trk=profile-badge"> Devan K S </a> </div>
               
 
 #  - title: A Little More About Me
