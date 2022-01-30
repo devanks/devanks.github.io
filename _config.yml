@@ -215,10 +215,10 @@ content:
         </tbody>
       </table>
 
- - title: LinkedIn
-   layout: text
-   content: | # this will include new lines to allow paragraphs
-     <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" {% if site.darkmode == true and site.darkmode != 'never' %}data-theme="dark"{% endif %} data-type="VERTICAL" data-vanity="devanks" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/devanks?trk=profile-badge"> Devan K S </a> </div>
+#  - title: <i id="linkedin-section" href="#linked-in-section" class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" {% if site.darkmode == true and site.darkmode != 'never' %}data-theme="dark"{% endif %} data-type="VERTICAL" data-vanity="devanks" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/devanks?trk=profile-badge"> Devan K S </a> </div>
               
 
 #  - title: A Little More About Me
