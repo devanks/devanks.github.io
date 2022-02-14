@@ -60,6 +60,11 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
+          * OCPP 2.0
+            * Builds a microservice solution to use a charging protocol specified by OCPP
+            * Created a pull request reviewable documentation repository to handle the knowledge of architecture and the team
+            * Working parallelly as a product manager handling the deliverables of the team
+            * _Leveraged Knowledge_: Scala, Play, Akka, Spring Boot, MongoDB, Kafka
           * Integrated Fleet Management
             * Pseudo Technical Lead role.
             * Created strict coding standards.
@@ -73,11 +78,6 @@ content:
             * Improved response time of an API under peak load from 12 seconds to 1.6 seconds.
             * Built a standardized Jenkins pipeline for projects with quality stages and blue-green deployment in Pivotal cloud foundry.
             * _Leveraged Knowledge_: Spring Boot, Java, Jenkins
-          * OCPP 2.0
-            * Builds a microservice solution to use a charging protocol specified by OCPP
-            * Created a pull request reviewable documentation repository to handle the knowledge of architecture and the team
-            * Working parallelly as a product manager handling the deliverables of the team
-            * _Leveraged Knowledge_: Scala, Play, Akka, Spring Boot, MongoDB, Kafka
       - layout: left
         title: <b>Salalah Methanol Company</b>, Oman
         #  link: boringcompany.com
