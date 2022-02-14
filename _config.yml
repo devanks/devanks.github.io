@@ -32,6 +32,12 @@ additional_links:
     icon: fas fa-file-download
     url: https://tiny.one/devanCV
 
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "G-LJ3WGF6DDW"
+# google_analytics: "UA-00000000-0"
+
 # About Section
 about_title: <i id="about-me" href="#about-me" class="fa fa-id-card-o" aria-hidden="true"></i> About Me
 about_profile_image: images/profile.jpg
