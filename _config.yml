@@ -63,7 +63,8 @@ content:
           * OCPP 2.0
             * Builds a microservice solution to use a charging protocol specified by OCPP
             * Created a pull request reviewable documentation repository to handle the knowledge of architecture and the team
-            * Working parallelly as a product manager handling the deliverables of the team
+            * Worked temporarily as a product manager handling the deliverables of the team giving insights into management flows
+            * Created resources to help the extended team with Jenkins migration to new cloud space and single-handedly migrated the team's instance.
             * _Leveraged Knowledge_: Scala, Play, Akka, Spring Boot, MongoDB, Kafka
           * Integrated Fleet Management
             * Pseudo Technical Lead role.
