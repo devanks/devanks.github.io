@@ -55,8 +55,8 @@ content:
       - layout: left
         title: <b>Ford Smart Mobility</b>, Chennai
 #        link: boringcompany.com
-        sub_title: Full-Stack Developer
-        caption: AUGUST 2019 - PRESENT
+        sub_title: Analyst
+        caption: APRIL 2021 - PRESENT
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -71,6 +71,14 @@ content:
             * Created strict coding standards.
             * Refactor existing pipelines to Ford standard library functions for less error-prone Jenkins.
             * _Leveraged Knowledge_: Kubernetes, Jenkins, Spring Boot, VueJS
+      - layout: left
+        title: <b>Ford Smart Mobility</b>, Chennai
+#        link: boringcompany.com
+        sub_title: Ford College Graduate
+        caption: AUGUST 2019 - APRIL 2021
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
           * Ford Fleet Marketplace
             * Followed strict TDD principles.
             * Built a developer portal from base up leveraging easily editable markdown files.
