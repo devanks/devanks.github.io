@@ -9,7 +9,7 @@ version: 2
 name: Devan K S
 title: Full-Stack Developer
 email: devansamba96@gmail.com
-website: devanks.github.io
+website: https://devanks.dev
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -30,7 +30,7 @@ linkedin_username: devanks
 additional_links:
   - title: Curriculum Vitae
     icon: fas fa-file-download
-    url: https://tiny.one/devanCV
+    url: https://devanks.dev/resume
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -61,10 +61,13 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
           * OCPP 2.0
+            * *2 time "Top Achiever" Performance Grade* _(Scale: Top Achiever, Achiever, Lower Achiever, Unsatisfactory)_
+            * Ideate and create a new architecture to better support the scalability of the OCPP platform and allow other products to connect easily to the platform.
             * Builds a microservice solution to use a charging protocol specified by OCPP
             * Created a pull request reviewable documentation repository to handle the knowledge of architecture and the team
             * Worked temporarily as a product manager handling the deliverables of the team giving insights into management flows
             * Created resources to help the extended team with Jenkins migration to new cloud space and single-handedly migrated the team's instance.
+            * As a part of the Recognition program in EV, recognized twice by the wider EV team for the support provided.
             * _Leveraged Knowledge_: Scala, Play, Akka, Spring Boot, MongoDB, Kafka
           * Integrated Fleet Management
             * Pseudo Technical Lead role.
@@ -266,3 +269,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-redirect-from
