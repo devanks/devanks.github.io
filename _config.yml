@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: devanks/devanks.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -25,6 +25,7 @@ linkedin_username: devanks
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +devanks
+stackoverflow_username: "13027997"
 
 # Additional icon links
 additional_links:
@@ -204,7 +205,7 @@ content:
             <td>
               <img alt="Spring" src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&amp;logo=spring&amp;logoColor=white" />
             </td>
-            <td class="rating-4">
+            <td class="rating-5">
             </td>
             <td>
               <img alt="VueJS" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
@@ -214,19 +215,31 @@ content:
           </tr>
           <tr>
             <td>
-              <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-            </td>
-            <td class="rating-5">
-            </td>
-            <td>
-              <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+              <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
             </td>
             <td class="rating-3">
+            </td>
+            <td>
+              <img alt="Scala" src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" />
+            </td>
+            <td class="rating-2">
             </td>
           </tr>
           <tr>
             <td>
-              <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" />
+              <img alt="Jenkins" src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white" />
+            </td>
+            <td class="rating-4">
+            </td>
+            <td>
+              <img alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+            </td>
+            <td class="rating-2">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img alt="Tekton" src="https://img.shields.io/badge/Tekton-FD495C.svg?style=for-the-badge&logo=Tekton&logoColor=white" />
             </td>
             <td class="rating-2">
             </td>
@@ -270,3 +283,16 @@ sass:
 plugins:
  - jekyll-seo-tag
  - jekyll-redirect-from
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]
