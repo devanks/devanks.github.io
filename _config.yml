@@ -56,15 +56,26 @@ content:
       - layout: left
         title: <b>Ford Smart Mobility</b>, Chennai
 #        link: boringcompany.com
+        sub_title: Technical Lead
+        caption: January 2023 - PRESENT
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          * OCPP 2.0
+            * Ideate and create a new architecture to better support the scalability of the OCPP platform and allow other products to connect easily to the platform.
+            * Build a completely asynchronous microservice solution for using charging protocol specified by OCPP
+            * Supporting team's increase in knowledge in GCP
+            * _Leveraged Knowledge_: GCP Cloud Native Solutions, Scala, Play, Akka, Spring Boot, MongoDB, Kafka
+      - layout: left
+        title: <b>Ford Smart Mobility</b>, Chennai
+#        link: boringcompany.com
         sub_title: Analyst
-        caption: APRIL 2021 - PRESENT
+        caption: APRIL 2021 - December 2022
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
           * OCPP 2.0
             * *2 time "Top Achiever" Performance Grade* _(Scale: Top Achiever, Achiever, Lower Achiever, Unsatisfactory)_
-            * Ideate and create a new architecture to better support the scalability of the OCPP platform and allow other products to connect easily to the platform.
-            * Builds a microservice solution to use a charging protocol specified by OCPP
             * Created a pull request reviewable documentation repository to handle the knowledge of architecture and the team
             * Worked temporarily as a product manager handling the deliverables of the team giving insights into management flows
             * Created resources to help the extended team with Jenkins migration to new cloud space and single-handedly migrated the team's instance.
