@@ -118,7 +118,7 @@ content:
   - title: <i id="badges" href="#badges" class="fa fa-certificate" aria-hidden="true"></i> Badges # Title for the section
     layout: text # Type of content section (list/text)
     content:
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7a0f9ce8-2d11-4d1f-a50e-878f5dedc5b2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      <div style="background-color: white" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7a0f9ce8-2d11-4d1f-a50e-878f5dedc5b2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   - title: <i id="education" href="#education" class="fa fa-graduation-cap" aria-hidden="true"></i> Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
