@@ -61,11 +61,19 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
+          * Bi-Directional Charging:
+            * Support Ford's Bi-Di charging features for it's new EVs.
+            * Maintain backend features to track charging and discharging insights.
+            * Architect the solution of the MQTT IoT device used for home energy management.
+          * OCPP 1.6
+            * Maintaining and increasing the scalability of the existing platform.
+            * Provide automated methods to test the platform as well as newer variants.
           * OCPP 2.0
             * Ideate and create a new architecture to better support the scalability of the OCPP platform and allow other products to connect easily to the platform.
             * Build a completely asynchronous microservice solution for using charging protocol specified by OCPP
             * Supporting team's increase in knowledge in GCP
-            * _Leveraged Knowledge_: GCP Cloud Native Solutions, Scala, Play, Akka, Spring Boot, MongoDB, Kafka
+            * Plan and migrate the services to Ford's internal all-in-one development platform, Bedrock
+          * _Leveraged Knowledge_: GCP Cloud Native Solutions, Scala, Play, Akka, Spring Boot, MongoDB, Kafka, Firestore, Redis
       - layout: left
         title: <b>Ford Smart Mobility</b>, Chennai
 #        link: boringcompany.com
