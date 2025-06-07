@@ -62,7 +62,7 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
           * Bi-Directional Charging:
-            * Support Ford's Bi-Di charging features for it's new EVs.
+            * Support Ford's Bi-Di charging features for its new EVs.
             * Maintain backend features to track charging and discharging insights.
             * Architect the solution of the MQTT IoT device used for home energy management.
           * OCPP 1.6
@@ -142,6 +142,24 @@ content:
   - title: <i id="projects" href="#projects" class="fa fa-desktop" aria-hidden="true"></i> Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Solarman-Alexa Integration
+        link: https://github.com/devanks/solarman-gcp-infra
+        link_text: Project Documentation
+        icon: fab fa-github
+        #        additional_links:
+        #          - title:  sproogen/modern-resume-theme
+        #            icon: fab fa-github
+        #            url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Personal Project
+        description: | # this will include new lines to allow paragraphs
+          * Solarman, a solar panel tracking dashboard/app does not have a smart home system integration.
+          * Since most of my house was integrated with Alexa/Google Home/Samsung Smart things I looked to explore an integration.
+          * Worked with AWS Lambda to connect an Alexa skill
+          * Created most of the architecture in GCP to use my pre-existing knowledge effectively
+          * Ensured a zero cost architecture by reducing data usage and calculating exact free quotas for different GCP resources
+          * Also working with Samsung Smart things team, to fix bugs found while integrating into their system.
       - layout: top-middle
         title: Attendance Management System using Image Processing
         link: https://github.com/devanks/AttendanceMgmtAI
