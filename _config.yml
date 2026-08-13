@@ -54,13 +54,34 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: <b>Ford Smart Mobility</b>, Chennai
+        title: <b>Ford Motor Private Ltd</b>, Chennai
 #        link: boringcompany.com
         sub_title: Technical Lead
         caption: January 2023 - PRESENT
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products #like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
+          * Cloud Architecture & Scalability
+            * Architected a highly scalable microservices ecosystem by defining service boundaries, Kubernetes deployment patterns, and autoscaling standards, capturing the new architecture across 6 detailed Architectural Decision Records (ADRs).
+            * Validated platform readiness and system resilience by orchestrating intensive load-testing across Cloud Run, GKE Autopilot, and GitHub Actions runners, utilizing Micrometer metrics linked to Dynatrace for comprehensive observability.
+            * Optimized infrastructure expenditure by identifying resource-heavy log ingestion pipelines; architected and executed a migration from an over-provisioned GCP Dataflow setup to a lightweight, Cloud Run-based Splunk service, drastically reducing monthly cloud costs.
+            * Engineered a completely asynchronous microservice backend utilizing OCPP 2.0 specifications to handle highly concurrent EV charging protocols.
+            * Developed technical Proof of Concepts (POCs) utilizing MQTT to support backend infrastructure and track insights for next-generation bi-directional EV charging features.
+          * CI/CD & Developer Productivity
+            * Spearheaded an emergency pipeline modernization, migrating multiple frontend applications from Tekton to GitHub Actions utilizing Ford-hosted (ARC-based) runners and GCP Cloud Build to restore developer velocity.
+            * Slashed deployment execution times from an unreliable 30+ minutes to a consistent 4-minute average by embedding automated test reports, Sonar PR decoration, and strict quality gates directly into GitHub workflows.
+            * Overcame critical deployment blockers on Ford's custom Kubernetes 'Bedrock' platform by authoring a custom Gradle plugin and engineering a Python-based terminal emulator, successfully unblocking WebSocket testing and legacy system migrations.
+            * Accelerated future service onboarding by replacing the legacy Scala/Play gateway with a modern Spring Boot service, subsequently publishing a standardized Bedrock-Spring Boot SDK and comprehensive migration guides.
+          * Security & Zero Trust
+            * Architected a Zero Trust API security model by deprecating static client credentials in favor of a dynamic federation model.
+            * Engineered automated workflows using GCP service account tokens to dynamically exchange and fetch Entra ID (Azure AD) tokens for Apigee endpoints, permanently eliminating manual secret rotation maintenance.
+            * Standardized a Shift-Left security posture by upgrading 42Crunch automated integrations for API conformance checks via GitHub Actions and pioneering Build-Time Container Image Scanning (BTCIS) utilizing JFrog Xray ahead of strict organizational deadlines.
+            * Implemented a FOSSA Copilot remediation workflow, significantly reducing Mean Time To Remediation (MTTR) for open-source vulnerabilities, and actively shaped enterprise security strategies through participation in an organizational Cycode pilot.
+            * Engineered a custom network bridge service to enable secure, seamless communication protocols across isolated GCP networks.
+          * Mentorship & Organizational Enablement
+            * Scaled engineering enablement by designing and implementing a comprehensive 'Zero-to-Hero' onboarding framework aimed at rapidly upskilling new joiners.
+            * Authored over 100 technical documents, architectural guides, and ADRs in a centralized common repository to standardize technical knowledge and eliminate engineering silos.
+            * Hosted regular cross-functional Knowledge Transfer (KT) sessions, successfully elevating the wider organization's engineering capabilities in GCP, Kubernetes, and modern platform deployments.
           * Bi-Directional Charging:
             * Support Ford's Bi-Di charging features for its new EVs.
             * Maintain backend features to track charging and discharging insights.
@@ -73,7 +94,7 @@ content:
             * Build a completely asynchronous microservice solution for using charging protocol specified by OCPP
             * Supporting team's increase in knowledge in GCP
             * Plan and migrate the services to Ford's internal all-in-one development platform, Bedrock
-          * _Leveraged Knowledge_: GCP Cloud Native Solutions, Scala, Play, Akka, Spring Boot, MongoDB, Kafka, Firestore, Redis
+          * _Leveraged Knowledge_: GCP (Cloud Run, GKE Autopilot, Dataflow, Firestore), Kubernetes (Bedrock), Spring Boot, Scala / Play / Akka, GitHub Actions & ARC, Kafka & MQTT, MongoDB & Redis, Dynatrace & Micrometer, JFrog Xray, Sonar, 42Crunch, FOSSA
       - layout: left
         title: <b>Ford Smart Mobility</b>, Chennai
 #        link: boringcompany.com
